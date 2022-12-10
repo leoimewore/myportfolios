@@ -36,16 +36,16 @@ const postData=function(e){
       
 }
   }
-//   let email=info.get("email")
-//   const emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+  let email=info.get("email")
+  const emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
 
-//   if (email=== "" || email=== null){
+  if (email=== "" || email=== null){
    
-//     setshowError(true)
-//  }else if (!email.match(emailRegex)) {
-//   setshowError(true)
-//  }
+    setshowError(true)
+ }else if (!email.match(emailRegex)) {
+  setshowError(true)
+ }
 
 
   fetch(`https://api.airtable.com/v0/${base_id}/${tableName}`,{
