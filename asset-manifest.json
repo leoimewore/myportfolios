@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/myportfolios/static/css/main.2048f6fe.css",
+    "main.js": "/myportfolios/static/js/main.7a430214.js",
+    "static/media/jobsearch.jpg": "/myportfolios/static/media/jobsearch.d3ba1af30218f7dc4471.jpg",
+    "static/media/blank.jpg": "/myportfolios/static/media/blank.051db5cd4e5ad7eaefe5.jpg",
+    "static/media/leonard.webp": "/myportfolios/static/media/leonard.114a43b4e18057e47420.webp",
+    "static/media/WeatherApp.jpg": "/myportfolios/static/media/WeatherApp.604c43533bf0f5d5cffe.jpg",
+    "static/media/thumbnail-project-3-large.webp": "/myportfolios/static/media/thumbnail-project-3-large.204666234bbd998df57f.webp",
+    "static/media/icon-github.svg": "/myportfolios/static/media/icon-github.376f746105559084ee856620094454e7.svg",
+    "index.html": "/myportfolios/index.html",
+    "static/media/icon-twitter.svg": "/myportfolios/static/media/icon-twitter.629d1a7a6ef2cb5f9c2fff0113fefc9a.svg",
+    "static/media/icon-linkedin.svg": "/myportfolios/static/media/icon-linkedin.299a1d811c6c10d4964a7018ae43228e.svg",
+    "static/media/pattern-rings.svg": "/myportfolios/static/media/pattern-rings.e62a24d55bee668faa1f.svg",
+    "main.2048f6fe.css.map": "/myportfolios/static/css/main.2048f6fe.css.map",
+    "main.7a430214.js.map": "/myportfolios/static/js/main.7a430214.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2048f6fe.css",
+    "static/js/main.7a430214.js"
+  ]
+}
