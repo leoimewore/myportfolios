@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/myportfolios/static/css/main.713d7b71.css",
-    "main.js": "/myportfolios/static/js/main.d0a5a49c.js",
+    "main.js": "/myportfolios/static/js/main.df8258b1.js",
+    "static/media/food.png": "/myportfolios/static/media/food.f8114ce63a6c927c5f22.png",
     "static/media/jobsearch.jpg": "/myportfolios/static/media/jobsearch.d3ba1af30218f7dc4471.jpg",
-    "static/media/blank.jpg": "/myportfolios/static/media/blank.051db5cd4e5ad7eaefe5.jpg",
     "static/media/leonard.webp": "/myportfolios/static/media/leonard.114a43b4e18057e47420.webp",
     "static/media/WeatherApp.jpg": "/myportfolios/static/media/WeatherApp.604c43533bf0f5d5cffe.jpg",
     "static/media/thumbnail-project-3-large.webp": "/myportfolios/static/media/thumbnail-project-3-large.204666234bbd998df57f.webp",
@@ -13,10 +13,10 @@
     "static/media/icon-linkedin.svg": "/myportfolios/static/media/icon-linkedin.299a1d811c6c10d4964a7018ae43228e.svg",
     "static/media/pattern-rings.svg": "/myportfolios/static/media/pattern-rings.e62a24d55bee668faa1f.svg",
     "main.713d7b71.css.map": "/myportfolios/static/css/main.713d7b71.css.map",
-    "main.d0a5a49c.js.map": "/myportfolios/static/js/main.d0a5a49c.js.map"
+    "main.df8258b1.js.map": "/myportfolios/static/js/main.df8258b1.js.map"
   },
   "entrypoints": [
     "static/css/main.713d7b71.css",
-    "static/js/main.d0a5a49c.js"
+    "static/js/main.df8258b1.js"
   ]
 }
