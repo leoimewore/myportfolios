@@ -21,6 +21,8 @@ function App() {
 
 const [showError, setshowError] = useState(false)
 
+const [showSuccess, setshowSuccess] = useState(false)
+
 
   
 const postData=function(e){
@@ -59,6 +61,7 @@ const postData=function(e){
   .then((response) => response.json())
   .then((data) => {
     console.log('Success:', data);
+    setshowSuccess(true)
    
   })
   .catch((error) => {
@@ -66,7 +69,7 @@ const postData=function(e){
   });
 
 
-
+  
 
 
 
@@ -182,14 +185,14 @@ const postData=function(e){
 
              <div class="absolute bottom-0 left-0 right-0 top-0 text-center text-xl text-white bg-light-gray opacity-0 hover:opacity-100">
                 <div class="flex flex-col h-full justify-center gap-y-3">
-                  <a href="https://leoimewore.github.io/Todolist-App/" target="_blank" rel="noreferrer" class="uppercase font-bold  uppercase decoration-[#50d71e] tracking-widest text-xl underline-offset-4 underline cursor-pointer">View project</a>
+                  <a href="https://todolist-frontend-af3c0.web.app/" target="_blank" rel="noreferrer" class="uppercase font-bold  uppercase decoration-[#50d71e] tracking-widest text-xl underline-offset-4 underline cursor-pointer">View project</a>
                   <a href="https://github.com/leoimewore/Todolist-App" target="_blank"  rel="noreferrer" class="font-bold  uppercase decoration-[#50d71e] tracking-widest text-xl underline-offset-4 underline cursor-pointer">View code</a>
                 </div>
               </div>
             </article>
             <div>
-              <h3 class="uppercase text-lg font-bold mt-4">Todolist App</h3>
-              <span class="mt-3.5 text-smoky-white uppercase text-xs">HTML  CSS  React</span>
+              <h3 class="uppercase text-lg font-bold mt-4">Full Stack Todolist App</h3>
+              <span class="mt-3.5 text-smoky-white uppercase text-xs">React Node Express Mongo</span>
             </div>
           </section>
 
@@ -215,18 +218,18 @@ const postData=function(e){
           <section class="flex flex-col w-full md:w-45">
             <article class="w-full relative">
               <div class="flex flex-col w-full">
-                <img src={require("./images/blank.jpg")} alt="project1" class="w-full h-full" />
+                <img src={require("./images/food.png")} alt="project1" class="w-full h-full" />
               </div>
 
               <div class="absolute bottom-0 left-0 right-0 top-0 text-center text-xl text-white bg-light-gray opacity-0 hover:opacity-100">
                 <div class="flex flex-col h-full justify-center gap-y-3">
-                  <a href="" class="uppercase font-bold  uppercase decoration-[#50d71e] tracking-widest text-xl underline-offset-4 underline cursor-pointer">View project</a>
-                  <a href="" class="font-bold  uppercase decoration-[#50d71e] tracking-widest text-xl underline-offset-4 underline cursor-pointer">View code</a>
+                  <a href="https://github.com/leoimewore/food-delivery-client" class="uppercase font-bold  uppercase decoration-[#50d71e] tracking-widest text-xl underline-offset-4 underline cursor-pointer">View project</a>
+                  <a href="https://leoimewore.github.io/food-delivery-client/" class="font-bold  uppercase decoration-[#50d71e] tracking-widest text-xl underline-offset-4 underline cursor-pointer">View code</a>
                 </div>
               </div>
             </article>
             <div>
-              <h3 class="uppercase text-lg font-bold mt-4">BLANK</h3>
+              <h3 class="uppercase text-lg font-bold mt-4">Food Delivery App</h3>
               <span class="mt-3.5 text-smoky-white uppercase text-xs">HTML  CSS  JavaScript</span>
             </div>
           </section>
@@ -251,9 +254,10 @@ const postData=function(e){
             <input type="text" name="email"   maxLength="30" placeholder="EMAIL" class="bg-slate-900 text-xs p-4 outline-0 border-b"/>
            { showError&&<div class="text-xs mt-1 text-right text-rose-900">Sorry invalid format</div>}
             <textarea name="message" placeholder="MESSAGE"  cols="45" rows="5" class="bg-slate-900 text-xs p-4 outline-0 border-b"></textarea>
+            {showSuccess && <div class="text-xl mt-1 text-center text-green-900">Thank you</div>}
   
             <button class="mt-4 text-right font-bold  uppercase decoration-[#50d71e] tracking-widest text-sm underline-offset-4 underline cursor-pointer">Send Message</button>
-  
+             
           </form>
        </section>
 
